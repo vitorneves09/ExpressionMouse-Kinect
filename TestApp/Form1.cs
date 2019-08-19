@@ -29,7 +29,7 @@ namespace TestApp
         private DepthImageFormat depthImageFormat = DepthImageFormat.Undefined;
         public Skeleton[] SkeletonData { get; set; }
         private List<Vector3DF> headRotationHistory = new List<Vector3DF>();
-        //via Pascalsches Dreieck
+        //via Pascalsches Dreieck este te
         //int[] gaussFilter = { 92378, 75582, 50388, 27132, 11628, 3876, 969, 171, 19, 1 };
         //int[] gaussFilter = { 155117520, 145422675, 119759850, 86493225, 54627300, 30045015, 14307150, 5852925, 2035800, 593775, 142506, 27405, 4060, 435, 30, 1 };
         int[] gaussFilter = { 64, 55, 45, 35, 25, 20, 15, 10, 8, 7, 6, 5, 4, 3, 2, 1 };
